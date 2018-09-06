@@ -28,7 +28,7 @@
           </li>
         </ul>
         <button v-on:click="goCatalog" type="button" class="btn btn-info btn-page">Catalogue</button>
-        <button v-on:click="goArtisan" type="button" class="btn btn-info btn-page">Inscrire</button>
+        <a href="#sign"><button   type="button" class="btn btn-info btn-page">Inscrire</button></a>
       </nav>
     </div>
     <!-- ********************************************************************************* -->
@@ -171,7 +171,14 @@
         </div>
       </div>
     </div>
-    
+
+    <!-- sign in et le sign up -->
+    <div id="sign" class="content"  >
+      <h1>Comment voulez vous incrire :</h1>
+      <a href="html/clientSignin.html"> <button  type="button" class="btn btn-dark btn-main-1 btn-lg">Client</button>
+        <a href="html/ArtisanSignin.html"><button   type="button" class="btn btn-light btn-main-2 btn-lg">Artisan</button></a>
+    </div>
+
 
     <footer class="container-fluid footerpage">
       <div class="container-fluid iconlist">
