@@ -2,18 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <title>joq-v0</title>
+    <title>khelesni</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/client.css">
 	<link rel="stylesheet" type="text/css" href="../css/app.css">
+	<link rel="shortcut icon" href="../img/logo.png " />
 </head>
 <body>
 	<div id="clientSign">
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark nav-page">
-	      <a class="navbar-brand brand" href="#app">JOQ</a>
+	      <a class="navbar-brand brand" href="../index.html"><img src="../img/logo.png" id="logo"></a>
 	    </nav>
 		<div class="container-fluid container-page">
 			<br><br><br><br><br>
@@ -24,11 +25,11 @@
 		      		<form  class ="form-style" style="padding-top: 0px;">
 			  			<div class="form-group">
 			    			<label for="email">Email</label>
-			   	    		<input type="email" class="form-control" placeholder="Enter email" id="id" v-model = "email">
+			   	    		<input type="email" required class="form-control" placeholder="Enter email" id="id" v-model = "email">
 			  			</div>
 			  			<div class="form-group">
 			   	   	    	<label for="pwd">Password</label>
-			   	    		<input type="password" class="form-control" placeholder="Enter password" id="pwd" v-model = "password">
+			   	    		<input type="password" required class="form-control" placeholder="Enter password" id="pwd" v-model = "password">
 			 	 		</div>
 			  			<div class="form-group form-check">
 			   				<label class="form-check-label">
@@ -48,11 +49,11 @@
 	      			<form  class ="form-style" style="padding-top: 0px;">
 	  					<div class="form-group">
 	    					<label for="email">Email</label>
-	   	    				<input type="email" class="form-control" placeholder="Enter email" id="email" v-model = "email">
+	   	    				<input type="email" required class="form-control" placeholder="Enter email" id="email" v-model = "email">
 	  					</div>
 	  					<div class="form-group">
 	   	   	    			<label for="pwd">Password</label>
-	   	    				<input type="password" class="form-control" placeholder="Enter password" id="password" v-model = "password">
+	   	    				<input type="password" required class="form-control" placeholder="Enter password" id="password" v-model = "password">
 	 	 				</div>
 	  					<div class="form-group form-check">
 	   						<label class="form-check-label">
