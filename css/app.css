@@ -162,7 +162,8 @@
 #logo
 {
   height: 50px;
-   
+  background-color: rgba(145, 13, 13, 0.1);
+  margin-left: 10px;
 }
 
 .kheles{
@@ -171,6 +172,7 @@
   font-family: 'Aclonica';
   font-weight: bold;
   font-style: italic ;
+  
 }
 
 .logos
