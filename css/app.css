@@ -1,6 +1,7 @@
 .transparent-block{
   background-image: url(../img/back1.jpg);
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   opacity: 0.5;
   z-index: -1;
@@ -13,8 +14,9 @@
 }
 
 .transparent-block1{
-  background-image: url(../img/back1.png);
+  background-image: url(../img/back2.jpg);
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   opacity: 0.5;
   z-index: -1;
@@ -24,6 +26,21 @@
   right: 0;
   position: absolute;
  
+}
+
+.transparent-block2{
+  background-image: url(../img/back3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.5;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  
 }
 .main-page{
   margin-top: 70px;
