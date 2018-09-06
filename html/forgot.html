@@ -13,19 +13,19 @@
 
 	<div id="forgot" class="container-fluid freelancerform">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark nav-page">
-    <a class="navbar-brand brand" href="#app">JOQ</a>
+    <a class="navbar-brand brand" href="../index.html"><img src="../img/logo.png" id="logo"></a>
     </nav>
     <div class="contentforgot">
       <h1 class="h1">Password Reset</h1>
       <form>
         <div class="form-group">
           <label for="email">Email address:</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter email address you're registred with" v-model = "email">
+          <input type="email" class="form-control" id="email"    placeholder="Enter email address you're registred with" v-model = "email">
         </div>
         <button class="btn btn-info" v-on:click= "provideInfo">Send code</button>
         <div class="form-group">
           <label for="pwd">Code:</label>
-          <input type="password" class="form-control" id="pwd" placeholder="Enter the code you received in the email" v-model = "code">
+          <input type="password"   class="form-control" id="pwd" placeholder="Enter the code you received in the email" v-model = "code">
         </div>
         <button type="submit" class="btn btn-info" v-on:click= "provideInfo">Reset</button>
       </form>

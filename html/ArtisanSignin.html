@@ -14,20 +14,20 @@
 	<div id="free">
 		<div id="headerpage">
       		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav-page">
-        		<a class="navbar-brand brand" href="#app">JOQ</a>
+        		<a class="navbar-brand brand" href="../index.html"><img src="../img/logo.png" id="logo"></a>
         	</nav>
   		</div>
   		<div id="freelancerform">
       		<div class="contentForm">
-	        	<h1>Welcome back JOQ'ER</h1>
+	        	<h1>Welcome back Artisan !</h1>
 	        	<form>
 	          		<div class="form-group">
 	            		<label for="email">Email address:</label>
-	            		<input type="email" class="form-control" id="email" placeholder="Enter your email" v-model = "email">
+	            		<input type="email" class="form-control" id="email" placeholder="Enter your email" v-model = "email" required>
 	          		</div>
 	          		<div class="form-group">
 	            		<label for="pwd">Password:</label>
-	            		<input type="password" class="form-control" id="pwd" placeholder="Enter your password" v-model = "password">
+	            		<input type="password" class="form-control" id="pwd" placeholder="Enter your password" v-model = "password" required>
 	          		</div>
 	          		<div class="form-group form-check">
 	            		<label class="form-check-label">
@@ -36,7 +36,7 @@
 	          		</div>
 	          		<div class="form-group">
 	            		<a href="./forgot.html" >Forgot your password ?</a>
-	            		<a href="./freeSignup.html" style="float: right;" >Be a JOQ'ER</a>
+	            		<a href="./artisansignup.html" style="float: right;" >Join us</a>
 	          		</div>
 	          		<button type="submit" class="btn btn-info" v-on:click= "provideInfo">Sign In</button>
 	        	</form>

@@ -71,7 +71,8 @@
 }
 .nav-page{
     font-family: 'Oswald', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    padding: 5px; 
   }
   .brand{
     letter-spacing: 2px;
@@ -156,4 +157,18 @@
   background-color: #B4B7BA;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#logo
+{
+  height: 50px;
+   
+}
+
+.kheles{
+  color: rgb(7, 63, 29);
+  letter-spacing: 20px;
+  font-family: 'Aclonica';
+  font-weight: bold;
+  font-style: italic ;
 }
